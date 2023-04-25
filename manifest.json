@@ -1,0 +1,14 @@
+{
+    "name": "Projeto Cabueta",
+    "version": "1.0",
+    "description": "Uma extensão do Chrome com Flask que obtém a URL da página atual",
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab",
+      "http://localhost:5000/*"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

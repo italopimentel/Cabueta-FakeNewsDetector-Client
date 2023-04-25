@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "templates",
+			"path": "templates"
+		},
+		{
+			"name": "fakenews-develop",
+			"path": "../fakenews-develop"
+		}
+	],
+	"settings": {}
+}
