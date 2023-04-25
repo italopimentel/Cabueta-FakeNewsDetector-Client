@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\static\style.css" />
+    <script src="popup.js"></script>
+    <title>fake news</title>
+</head>
+<body>
+    <!--Input da pesquisa-->
+    <div class="search">
+        <input id="usr" type="text" />
+      </div>
+      <!--div de tudo o que fica abaixo do input de pesquisa-->
+      <div class="main-section">
+        <!--div onde mostrará o anúncio da veracidade da notícia e a porcentagem da veracidade-->
+        <div class="veracidade">
+          <h3>A porcentagem da notícia ser real é!</h3>
+          <span class="porcentagem"></span>
+          <span id="val-porcentagem">{{nota_fake}}%</span>
+        </div>
+        <div id="content"></div>
+        <!--link para notícias verídicas que comprovam a veracidade/inveracidade do fato-->
+        <footer>
+          <div class="link">
+            <a class="link-a" href="/templates/paginaResult.html" target="_blank">Detalhes da análise</a>
+          </div>
+          <div class="report">
+          </div>
+        </footer>
+      </div>
+      <!--script de ligação ao javascript-->
+      <script src="popup.js"></script>
+</body>
+</html>
