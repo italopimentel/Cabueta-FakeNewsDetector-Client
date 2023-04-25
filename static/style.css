@@ -1,0 +1,106 @@
+html,
+body {
+    height: 409px;
+    width: 410px;
+    margin: 0;
+    background-color: #5f5f5f3b;
+}
+
+#usr {
+    background-image: url("/static/lupa.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    background-position-x: 10px;
+    border-radius: 10px;
+    border: 1px solid #e0a70b80;
+    height: 40px;
+    width: 380px;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.main-section {
+    position: absolute;
+    width: 380px;
+    height: 324px;
+    margin-top: 16px;
+    margin-left: 15px;
+    border: 1px solid #DEDEDE;
+    background-color: rgb(254, 206, 34);
+    border-radius: 5px;
+}
+
+.veracidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.veracidade h3 {
+    width: 299px;
+    height: 31px;
+    margin-top: 20px;
+    margin-left: 49px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.porcentagem {
+    width: 110px;
+    border-radius: 50%;
+    height: 110px;
+    background-color: #d5d8d7;
+    position: absolute;
+    z-index: 1;
+    margin-top: 180px;
+}
+
+#val-porcentagem {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: 180px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 160px;
+}
+
+.link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #DEDEDE;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+
+.link:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 66, 3);
+    transition: all .3s ease-out;
+}
+.link-a{
+    color: rgb(0, 0, 0);
+}
